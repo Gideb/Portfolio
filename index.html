@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Portfolio of Gilbert Larbi Debrah, a Frontend Developer, Graphics Designer, and Cybersecurity Enthusiast.">
+    <title>Gilbert Larbi Debrah | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="img/favicon.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="animate__animated animate__fadeInDown">
+        <h1>👨‍💻 Gilbert Larbi Debrah</h1>
+        <p>Frontend Developer | Graphics Designer | Cybersecurity Enthusiast | Aspiring Software Engineer</p>
+        <div id="profile" class="profile-section">
+            <img class="profile-image" src="img/profile.jpg" alt="Gilbert Larbi Debrah">
+            <div class="personal-details">
+                📧 <a href="mailto:gilbertlarbidebrah@gmail.com" class="contact-link"
+                    aria-label="Send an email to Gilbert">gilbertlarbidebrah@gmail.com</a> |
+                📞 <a href="tel:+233552649953" class="contact-link">+233 552649953</a>
+            </div>
+            <div class="social-icons">
+                💻 <a href="https://github.com/Gideb" target="_blank">GitHub</a>
+                🌐 <a href="http://www.linkedin.com/in/gilbert-debrah-836aa61a3" target="_blank">LinkedIn</a>
+            </div>
+
+        </div>
+    </header>
+
+    <button id="theme-toggle" aria-label="Toggle Theme">
+        <i id="theme-icon" class="fas fa-moon"></i>
+    </button>
+
+    <section class="about-me animate__animated animate__fadeInUp">
+        <h2>👋 About Me</h2>
+        <p>Hello! I'm Gilbert, a passionate developer and cybersecurity enthusiast. I enjoy creating interactive
+            websites and learning cutting-edge technologies to solve real-world problems. I believe in continuous growth
+            and love collaborating with creative minds.</p>
+    </section>
+
+    <section class="tech-stack animate__animated animate__fadeInUp">
+        <h2>🧰 Tech Stack</h2>
+        <div class="tech-stack-icons">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>UI/UX
+                Design</span><span>Git</span><span>Python</span><span>Django</span><span>Node.js</span>
+        </div>
+    </section>
+
+    <section id="projects" class="animate__animated animate__fadeInUp">
+        <h2>🚀 My Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="./img/form.png" alt="An HTML/CSS Form">
+                <a href="https://github.com/Gideb/Front-end-Journey/blob/main/forms.zip"
+                    target="_blank">All Form Types</a>
+            </div>
+            <div class="project-card">
+                <img src="img/Light Mode vs Dark Mode.jpeg" alt="light/dark mode">
+                <a href="https://github.com/Gideb/Javascript-Projects/blob/main/Javascript-Projects-Toggle-Dark-and-Light-mode.zip"
+                    target="_blank">Toggle Dark and Light Mode</a>
+            </div>
+            <div class="project-card">
+                <img src="img/color wheel.jpeg" alt="color wheel">
+                <a href="https://github.com/gilbertlarbidebrah/project2" target="_blank">Color Wheel</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="testimonials animate__animated animate__fadeInUp">
+        <h2>🗣️ Testimonials</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <img src="img/client1.jpg" alt="Client Image" class="testimonial-image">
+                <p>"Gilbert is super dedicated and creative. A pleasure to work with!" <br> Kenneth</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="img/client2.jpg" alt="Client Image" class="testimonial-image">
+                <p>"His technical skills and work ethic make him stand out in every project." <br> Jaresh</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="img/client3.jpg" alt="Client Image" class="testimonial-image">
+                <p>"A true problem-solver. We couldn't have asked for a better collaborator!" <br> Cathrine
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications animate__animated animate__fadeInUp">
+        <h2>📜 Certifications</h2>
+        <ul>
+            <li>Frontend Developer Certificate – FreeCodeCamp</li>
+            <li>Cybersecurity Fundamentals – Coursera</li>
+            <li>Introduction To Python – Microsoft</li>
+        </ul>
+    </section>
+
+    <section class="blog-updates animate__animated animate__fadeInUp">
+        <h2>📰 Blog & Updates</h2>
+        <p>Coming soon: A series of posts about frontend best practices and cybersecurity tips.</p>
+    </section>
+
+    <section class="services animate__animated animate__fadeInUp">
+        <h2>🛠️ Services I Offer</h2>
+        <ul>
+            <li>✨ Frontend Development</li>
+            <li>⚙️ Backend Development</li>
+            <li>🎨 UI/UX Design</li>
+            <li>🌐 Web Design</li>
+            <li>💬 IT Consulting</li>
+            <li>🔐 IT & Cybersecurity Services</li>
+        </ul>
+    </section>
+
+    <section class="contact animate__animated animate__fadeInUp" id="contact">
+        <h2>📩 Contact Me</h2>
+        <form action="https://formsubmit.co/gilbertlarbidebrah@gmail.com" method="POST">
+            <input type="text" name="name" id="name" placeholder="Your Name" required autofill autofocus />
+            <input type="email" name="email" id="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Gilbert Larbi Debrah | All Rights Reserved
+        <div class="footer-links">
+            <a href="#projects">Projects</a> | <a href="#profile">Contact</a>
+        </div>
+
+        <button id="back-to-top">↑</button>
+    </footer>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
